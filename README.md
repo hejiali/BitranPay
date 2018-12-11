@@ -26,12 +26,12 @@ Add it in your root build.gradle at the end of repositories:
  
  		
 	String mStrOrder = "你申请的订单号";
-        IntentBYManager.startLaoYuanAppPay(MainActivity.this,mStrOrder);
+        IntentBYManager.getInstance().startLaoYuanAppPay(MainActivity.this,mStrOrder);
 		
 Step 4. final
 
 	@Override
         protected void onDestroy() {
            super.onDestroy();
-            IntentBYManager.destroy();
+            IntentBYManager.getInstance().destroy();
        }
