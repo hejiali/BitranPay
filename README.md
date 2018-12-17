@@ -22,7 +22,7 @@ Add it in your root build.gradle at the end of repositories:
 		}
 		
 		
- Step 3. activity or fragmnet use
+ Step 3. activity or fragment use
  
  		
 	String mStrOrder = "你申请的订单号";
